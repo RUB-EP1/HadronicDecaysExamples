@@ -1,0 +1,9 @@
+# mainevtgenjson.dec - Example decay file for Lambda_c+ -> p K- pi+.
+
+Decay Lambda_c+
+    1.00  p+ pi+ K- THREEBODYDECAYS lc2ppik-lhcb-2683025.json;
+Enddecay
+CDecay anti-Lambda_c-
+
+End
+

@@ -1,0 +1,53 @@
+Name: LHCB_2023_I2683025
+Year: 2023
+Summary: Amplitude analysis of the $\mathrm{\Lambda}_c^+\textrightarrow{}pK^-\mathrm{\pi}^+$ decay in $\mathrm{pp}$ collisions at $13~\mathrm{TeV}$ in LHCb
+Experiment: LHCB
+Collider: LHC
+InspireID: 2683025
+Status: UNVALIDATED NOHEPDATA
+Reentrant: true
+NumEvents: 1000000
+Authors:
+ - Ilya Segal <ilya.segal@cern.ch>
+References:
+ - 'Phys.Rev.D 108 (2023) 1, 012023'
+ - '10.1103/PhysRevD.108.012023'
+ - 'LHCb-PAPER-2022-002, CERN-EP-2022-124'
+ - 'arXiv:2208.03262'
+RunInfo: $\mathrm{\Lambda}_c^+\textrightarrow{}pK^-\mathrm{\pi}^+$ decay in $\mathrm{pp}$ collisions at $13~\mathrm{TeV}$ in LHCb acceptance
+Beams: [p+, p+]
+Energies: [[6500,6500]]
+Luminosity_fb: 1.7
+Description:
+  'This plugin preserves Amplitude analysis of the 
+  $\mathrm{\Lambda}_c^+\textrightarrow{}pK^-\mathrm{\pi}^+$ decay 
+  in $\mathrm{pp}$ collisions at $13~\mathrm{TeV}$ in LHCb.
+  Dalitz plot of the decay and its 1D projections are filled.'
+ValidationInfo:
+  'Validation of the plugin is performed using new amplitude-serialization
+  format which aims into preseravaiton of amplirude models.
+  This format is interfaced alongside EvtGen. 
+  To validate the plugin, one million events generated with the 
+  EvtGen and Pyrhia8 run were used.'
+#ReleaseTests:
+# - $A my-hepmc-prefix :MODE=some_rivet_flag
+Keywords: ['Amplitude analysis', 'Three-body decay', 'Dalitz plot']
+BibKey: LHCb:2022sck
+BibTeX: '@article{LHCb:2022sck,
+    author = "Aaij, Roel and others",
+    collaboration = "LHCb",
+    title = "{Amplitude analysis of the \ensuremath{\Lambda}c+\textrightarrow{}pK-\ensuremath{\pi}+ decay and \ensuremath{\Lambda}c+ baryon polarization measurement in semileptonic beauty hadron decays}",
+    eprint = "2208.03262",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ex",
+    reportNumber = "LHCb-PAPER-2022-002, CERN-EP-2022-124",
+    doi = "10.1103/PhysRevD.108.012023",
+    journal = "Phys. Rev. D",
+    volume = "108",
+    number = "1",
+    pages = "012023",
+    year = "2023"
+}'
+ToDo:
+ - Implement the analysis, test it, remove this ToDo, and mark as VALIDATED :-)
+
